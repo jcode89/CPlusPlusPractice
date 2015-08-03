@@ -7,9 +7,9 @@ int main(){
 	//declares that this is always a newline character.
 	const char kcN = '\n';
         // declares that the variable is a string.
-      	string cA;
-	string cB;
-	cA = "Hello Mister String!";
-	cB = "Oops, there is my friend Snr. String.";
-	cout << cA << "\n" << cB << kcN;
+      	string sA;
+	string sB;
+	sA = "Hello Mister String!";
+	sB = "Oops, there is my friend Snr. String.";
+	cout << sA << "\n" << sB << kcN;
 }
