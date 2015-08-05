@@ -12,7 +12,7 @@ int main (){
         cout << "See " << iX << endl;
     }
     else{
-        cout << "iX is definitely not 100!" << "\n;
+        cout << "iX is definitely not 100!" << "\n";
         cout << "iX is " << iX << endl;
     }
 }
