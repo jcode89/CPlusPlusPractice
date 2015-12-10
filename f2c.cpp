@@ -20,4 +20,10 @@ int main()
 	// The function can easily be called and executed in the print statement.
 	// And remember everything runs through main.
 	cout << "The degrees in Celsius are: " << converter(dA) << endl;
+	
+	// The following code keeps the program open till we hit enter.
+	cin.clear();//reset any error flags
+	cin.ignore(32767, '\n');// ignore any characters in the input buffer until we find an enter a character
+	cin.get();// get one more character from the user.
+	return 0;
 }
